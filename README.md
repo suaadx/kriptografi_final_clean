@@ -64,26 +64,40 @@ Bu bölümde kullanıcı, AES algoritması ile metin şifreleme ve çözme işle
 
 ### 🖼️ Arayüz ve Kullanım
 
-#### 1. Giriş Ekranı
+#### 1. Giriş Ekranı  
 Kullanıcıdan şifrelemek istediği metin ve şifreleme anahtarı istenir.
 
 ![Giriş Ekranı](images/metin_sifreleme.png)
 
 ---
 
-#### 2. Veri Girişi
+#### 2. Veri Girişi  
 Örneğin kullanıcı `"Suad Wajaheddin"` metnini `"2"` anahtarıyla şifrelemek istiyor:
 
 ![Veri Girişi](images/metin_sifreleme2.png)
 
 ---
 
-#### 3. Sonuç Gösterimi
+#### 3. Sonuç Gösterimi  
 "Şifrele" butonuna tıkladıktan sonra, şifrelenmiş veri aşağıdaki gibi görüntülenir:
 
 ![Sonuç](images/metin_sifreleme3.png)
 
 ---
+
+#### 4. Şifreli Veriyi Çözme  
+Kullanıcı, AES algoritması ile şifrelenmiş metni ve aynı anahtarı kullanarak çözme işlemini başlatır.
+
+![Şifreli Metni Girme](images/metin_coz.png)
+
+---
+
+#### 5. Başarılı Çözüm Sonucu  
+Doğru anahtar ile çözüm başarılı olur ve orijinal metin ekranda görüntülenir.
+
+![Çözüm Sonucu](images/metin_coz2.png)
+
+
 
 ### 📌 Açıklamalar
 
