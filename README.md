@@ -4,15 +4,20 @@
 AES  algoritmalarını kullanan bir şifreleme uygulaması.
 
 
-## 🚀 Başlatma
+## 🚀 Uygulamayı Başlatma
+
+Projeyi çalıştırmak için aşağıdaki adımları takip edin:
 
 ```bash
 pip install flask pycryptodome
 python app.py
+
 ```
+
 
 💡 Tarayıcıdan erişim:
 http://127.0.0.1:5000
+
 
 
 ## 🖼️ Ana Sayfa Görseli
@@ -102,10 +107,10 @@ Doğru anahtar ile çözüm başarılı olur ve orijinal metin ekranda görünt�
 ### 📌 Açıklamalar
 
 - **Metin:** Şifrelemek veya çözmek istediğiniz içeriği girin.
-- **Şifreleme Anahtarı:** 16 karaktere kadar olan anahtar, AES-128 için kullanılır.
-- **Şifrele Butonu:** Metni AES ile şifreler.
-- **Çöz Butonu:** Şifreli metni anahtar yardımıyla çözer.
-- **Sonuç Kutusu:** Şifrelenmiş (veya çözülmüş) metin burada görüntülenir.
+- **Şifreleme Anahtarı:** AES algoritması için gerekli olan ve 16 karaktere kadar uzunlukta bir anahtar girilmelidir. Bu anahtar, hem şifreleme hem de çözme işlemleri için aynıdır.
+- **Şifrele Butonu:** Girilen metni AES algoritması ile şifreler. Şifreleme sonucunda rastgele karakterlerden oluşan bir veri elde edilir.
+- **Çöz Butonu:** Daha önce AES ile şifrelenmiş veriyi, aynı anahtarı kullanarak orijinal haline döndürür. Anahtar hatalıysa çözüm başarısız olur.
+- **Sonuç Kutusu:** Şifrelenmiş veya çözülmüş veriyi görüntüler.
 
 Kullanıcı dostu arayüzü sayesinde hızlı ve güvenli şifreleme/çözme işlemleri yapılabilir.
 
